@@ -46,9 +46,13 @@ body {
 .apresentacao {
     padding: 6.35% 15%;
     display: flex;
-    align-items: center;
+    align-items: center;style="padding-top: 10%"
     justify-content: space-between;
     gap: 82px;
+}
+
+.texto__corpo{
+    padding-top: 2.5%%
 }
 
 .apresentacao__conteudo {
@@ -138,7 +142,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .cabecalho {
         padding: 13%;
     }
@@ -150,6 +154,10 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 8%;
+    }
+    
+    .texto__corpo {
+        padding-top: 10%
     }
 
     .apresentacao__conteudo {
